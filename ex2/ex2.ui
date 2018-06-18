@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>526</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>321</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>最小值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>最大值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>收益</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QDoubleSpinBox" name="return_min"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QDoubleSpinBox" name="return_max"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>最大回撤</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QDoubleSpinBox" name="return_maxdrawdown_min"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QDoubleSpinBox" name="return_maxdrawdown_max"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>sharp</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QDoubleSpinBox" name="return_sharp_min"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QDoubleSpinBox" name="return_sharp_max"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>90</y>
+      <width>121</width>
+      <height>122</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="dis_shouyi">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>显示收益</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dis_zuidahuiche">
+       <property name="text">
+        <string>显示最大回撤</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="dis_sharp">
+       <property name="text">
+        <string>显示sharp</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>526</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>return_min</tabstop>
+  <tabstop>return_max</tabstop>
+  <tabstop>return_maxdrawdown_min</tabstop>
+  <tabstop>return_maxdrawdown_max</tabstop>
+  <tabstop>return_sharp_min</tabstop>
+  <tabstop>return_sharp_max</tabstop>
+  <tabstop>dis_shouyi</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
