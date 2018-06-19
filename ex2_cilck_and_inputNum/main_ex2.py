@@ -32,7 +32,6 @@ class Layout(QMainWindow,Ui_MainWindow):
 
 if __name__ == "__main__":
     import sys
-
 app = QApplication(sys.argv)
 ui = Layout()
 ui.show()
