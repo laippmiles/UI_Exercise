@@ -1,6 +1,8 @@
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QMainWindow, QApplication
-from ex2 import Ui_MainWindow
+
+from ex2_cilck_and_inputNum.ex2 import Ui_MainWindow
+
 
 class Layout(QMainWindow,Ui_MainWindow):
     def __init__(self,parent = None):
