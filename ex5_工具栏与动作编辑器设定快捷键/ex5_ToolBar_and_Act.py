@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'ex5_ToolBar_and_Act.ui'
+# Form implementation generated from reading ui file 'ex6_MainWin.ui'
 #
 # Created by: PyQt5 UI code generator 5.10.1
 #

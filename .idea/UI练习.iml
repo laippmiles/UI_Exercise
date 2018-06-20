@@ -9,10 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ex3_signal_and_slog_simple" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ex4_signal_and _slog_改代码" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ex5_工具栏与动作编辑器设定快捷键" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Chapter03" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Chapter03/images" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Chapter03/mainWin" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Chapter03/testCase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ex6_加载其他窗口" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
