@@ -31,8 +31,9 @@
      <string>文件(F)</string>
     </property>
     <addaction name="fileOpenAction"/>
-    <addaction name="fileNewAction"/>
     <addaction name="fileCloseAction"/>
+    <addaction name="fileSaveAction"/>
+    <addaction name="fileNewAction"/>
    </widget>
    <widget class="QMenu" name="menu_E">
     <property name="title">
@@ -43,43 +44,39 @@
    <addaction name="menu_E"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <widget class="QToolBar" name="ToolBar">
-   <property name="windowTitle">
-    <string>toolBar</string>
-   </property>
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-   <addaction name="addWinAction"/>
-  </widget>
   <action name="fileOpenAction">
    <property name="text">
-    <string>打开</string>
+    <string>打开(Shift+O)</string>
    </property>
    <property name="shortcut">
-    <string>Alt+O</string>
+    <string>Shift+O</string>
+   </property>
+  </action>
+  <action name="fileCloseAction">
+   <property name="text">
+    <string>关闭(Shift+C)</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+C</string>
+   </property>
+  </action>
+  <action name="fileSaveAction">
+   <property name="text">
+    <string>保存(Ctrl+S)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
    </property>
   </action>
   <action name="fileNewAction">
    <property name="text">
-    <string>新建</string>
+    <string>另存为(Shift+S)</string>
    </property>
    <property name="toolTip">
     <string>新建</string>
    </property>
    <property name="shortcut">
-    <string>Alt+N</string>
-   </property>
-  </action>
-  <action name="fileCloseAction">
-   <property name="text">
-    <string>关闭</string>
-   </property>
-   <property name="shortcut">
-    <string>Alt+C</string>
+    <string>Shift+S</string>
    </property>
   </action>
   <action name="addWinAction">
