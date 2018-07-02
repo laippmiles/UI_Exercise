@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ex4_signal_and _slog_改代码" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ex5_工具栏与动作编辑器设定快捷键" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ex6_加载其他窗口" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pandas_pyqt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pandas_pyqt/data" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
