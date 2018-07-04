@@ -20,6 +20,7 @@ class Ui_MainWindow(object):
         self.pushButton_2 = QtWidgets.QPushButton(self.centralWidget)
         self.pushButton_2.setGeometry(QtCore.QRect(654, 170, 101, 41))
         self.pushButton_2.setObjectName("pushButton_2")
+
         self.pandastablewidget = DataTableWidget(self.centralWidget)
         self.pandastablewidget.setGeometry(QtCore.QRect(10, 30, 591, 331))
         self.pandastablewidget.setStyleSheet("")
