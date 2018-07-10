@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="新前缀">
+    <file>google-earth-view-1325.jpg</file>
+  </qresource>
+</RCC>

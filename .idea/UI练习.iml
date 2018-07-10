@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/pandas_pyqt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pandas_pyqt/data" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/matplotlib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/加入图片资源" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
